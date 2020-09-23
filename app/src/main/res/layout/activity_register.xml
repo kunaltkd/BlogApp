@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#80680CEA"
+    tools:context=".Register">
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/progressbar"
+        android:visibility="invisible"
+        android:background="@drawable/white"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        android:background="@drawable/edit"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:layout_margin="14dp"
+        android:drawablePadding="5dp"
+
+
+        android:id="@+id/email"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:background="@drawable/edit"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:drawablePadding="5dp"
+        android:layout_margin="14dp"
+        android:id="@+id/password"/>
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Confirmpassword"
+    android:id="@+id/confirmpassword"
+    android:background="@drawable/edit"
+    android:paddingStart="12dp"
+    android:paddingEnd="12dp"
+    android:drawablePadding="5dp"
+    android:layout_margin="14dp"
+    />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b1_register"
+        android:hint="Register"
+        android:background="@drawable/edit"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:drawablePadding="5dp"
+        android:layout_margin="14dp"/>
+
+</LinearLayout>

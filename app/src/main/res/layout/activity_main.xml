@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#B39C27B0"
+    tools:context=".MainActivity">
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/progressbar"
+        android:visibility="invisible"
+        android:background="@drawable/white"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:drawableStart="@drawable/icon1"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/edit"
+        android:drawablePadding="5dp"
+        android:hint="email"
+        android:textSize="16dp"
+        android:layout_margin="14dp"
+        ></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:drawableStart="@drawable/icon2"
+        android:background="@drawable/edit"
+        android:textSize="16dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:drawablePadding="5dp"
+        android:hint="password"
+
+        android:inputType="textPassword"
+        android:layout_margin="14dp"></EditText>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="LOGIN"
+        android:id="@+id/login"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:layout_margin="14dp"
+        android:drawablePadding="5dp"
+        android:background="@drawable/edit"/>
+
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Create New Account"
+    android:layout_margin="14dp"
+    android:onClick="myclick"
+    android:background="#66AF11"
+    tools:ignore="OnClick" />
+</LinearLayout>
